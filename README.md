@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# WriteClean – AI Writing Assistant
 
-# Run and deploy your AI Studio app
+WriteClean is a web-based AI-powered writing assistant that performs text normalization,
+sentiment analysis, slang detection, and content improvement.
 
-This contains everything you need to run your app locally.
+## Features
+- Tokenization & NLP simulation
+- Sentiment analysis with Gen Z slang understanding
+- Emoji sentiment detection
+- Cleaned and improved text suggestions
 
-View your app in AI Studio: https://ai.studio/apps/drive/1HnwbpRA8Dzrdp1q5sB7Qkwu6javoLdxR
+## Tech Stack
+- Frontend: React, TypeScript, Vite
+- Backend: Node.js, Express
+- AI: Google Gemini API
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Architecture
+Frontend communicates with a secure backend service that handles all AI API calls,
+ensuring API keys are never exposed on the client side.
