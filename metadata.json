@@ -1,0 +1,5 @@
+{
+  "name": "WriteClean",
+  "description": "An AI-powered text normalization and writing assistant. It simulates NLP pipelines (Stemming, Lemmatization) and performs sentiment analysis adapted for Gen Z slang and emojis.",
+  "requestFramePermissions": []
+}
