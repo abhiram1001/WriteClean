@@ -1,20 +1,7 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+WriteClean is an AI-powered writing assistant designed to help users improve the clarity, grammar, tone, and overall quality of their written content. The project focuses on simplifying the writing process by providing intelligent suggestions that enhance readability and correctness while preserving the original intent of the text.
 
-# Run and deploy your AI Studio app
+The application processes user-input text and applies natural language processing techniques to identify grammatical errors, stylistic issues, and clarity improvements. It aims to support use cases such as academic writing, professional communication, and general content editing.
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/drive/1HnwbpRA8Dzrdp1q5sB7Qkwu6javoLdxR
-
-## Run Locally
-
-**Prerequisites:**  Node.js
+WriteClean follows a modular and scalable design, making it easy to extend with additional NLP features such as tone analysis, summarization, or paraphrasing in the future. The project emphasizes clean code structure, usability, and practical application of AI concepts.
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
