@@ -1,6 +1,6 @@
 export const analyzeText = async (text: string) => {
   const response = await fetch(
-    "https://write-clean-xxxx.vercel.app/analyze",
+    "https://write-clean-xxxx.vercel.app/api/analyze",
     {
       method: "POST",
       headers: { "Content-Type": "application/json" },
